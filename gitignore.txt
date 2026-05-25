@@ -1,0 +1,32 @@
+# === Python & System Junk ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# === Data ===
+# Скрываем закрытые данные лаборатории
+data/
+*.csv
+
+
+# === ML Models & Cache ===
+# Скрываем сохраненные веса моделей и логи бустинга
+*.pkl
+*.pickle
+*.bst
+*.model
+*.ipynb_checkpoints/
+catboost_info/
+
+# === IDE Settings ===
+.vscode/
+.idea/
+.ipynb_checkpoints/
