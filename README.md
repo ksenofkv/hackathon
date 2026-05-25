@@ -20,9 +20,6 @@ SI (Selectivity Index) — индекс селективности, характ
 5. Функциональные группы (fr_*) (Бинарные признаки, отражающие наличие различных химических групп: fr_alkyl_halide, fr_ester, fr_ether, fr_ketone, fr_benzene, fr_pyridine, fr_imidazole, fr_amide, fr_amine, fr_nitro, fr_halogen и многие другие)
 6. Специфические дескрипторы (EState индексы (MaxEStateIndex, MinEStateIndex и др.), BCUT2D_*) — спектральные дескрипторы, FpDensityMorgan* — плотности молекулярных отпечатков.
 
-P.s.: Можно обучать:
-одну multi-target модель
-или отдельные модели для каждой переменной
 ---
 
 ## Структура проекта
